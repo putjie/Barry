@@ -1,0 +1,12 @@
+git rebase 之前检查分支是否最新
+git fetch origin && git rebase origin/master
+
+删除远程分支
+git push origin --delete remote_branch
+
+
+laravel 生成秘钥
+php artisan key:generate
+
+mysql表结构信息
+show full fields from Sys_Statistics_Log
