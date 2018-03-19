@@ -1,0 +1,11 @@
+npm windows 安装
+npm install --no-optional
+
+laravel 生成秘钥
+php artisan key:generate
+
+电影网站
+https://ifilm.linganmin.cn
+
+JavaScript数组复制
+let aFormData1 = JSON.parse(JSON.stringify(this.init.modal2.inti_schedule));

@@ -1,0 +1,15 @@
+
+MySQL join 的字段的类型应该一样，不然会很慢（Range checked for each record (index map: N) ）
+
+mysql表结构信息
+show full fields from Sys_Statistics_Log
+
+mysql 表分配给用户
+grant create,alter,drop,select, insert, update, delete on testdb.* to dev@'%'
+grant create on testdb.* to developer@’192.168.0.%’; 
+grant alter on testdb.* to developer@’192.168.0.%’; 
+grant drop on testdb.* to developer@’192.168.0.%’;
+grant create,alter,drop,select, insert, update, delete on testdb.* to dev@'%'
+
+参考网站
+http://blog.csdn.net/u012255016/article/details/62222959
